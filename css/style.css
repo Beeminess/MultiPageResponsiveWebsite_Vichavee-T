@@ -1,12 +1,11 @@
 /*Google.font-Raleway*/
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Playwrite+RO:wght@100..400&display=swap');
 
 html {
     scroll-behavior: smooth;
     font-family: 24pt;
     background-color: #fff;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     color: #D22026;
 }
 p {
@@ -22,7 +21,7 @@ body {
 /* text header */
 h1 {
     font-size: 30px;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     font-weight: 900;
     color: #D22026;
     line-height: 130%;
@@ -31,7 +30,7 @@ h1 {
 /* text sub info */
 h2 {
     font-size: 15px;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     font-weight: 500;
     color: #D22026;
     line-height: 130%;
@@ -39,7 +38,7 @@ h2 {
 /* Use in grid > text header */
 h3 {
     font-size: 45px;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     font-weight: 900;
     color: #ffffff;
     line-height: 130%;
@@ -49,7 +48,7 @@ h3 {
 /* Use in grid > text sub info */
 h4 {
     font-size: 15px;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     font-weight: 500;
     color: #ffffff;
     line-height: 130%;
@@ -57,7 +56,7 @@ h4 {
 }
 h5 {
     font-size: 15px;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     font-weight: 600;
     color: #ffffff;
     line-height: 120%;
@@ -191,7 +190,7 @@ button {
     padding: 10px 40px 10px 40px;
     margin-bottom: 0px;
     font-size: 0.5em;
-    font-family: "Raleway", sans-serif;
+    font-family: sans-serif;
     font-weight: 700;
     color: white;
     background-color: #C1111F;
@@ -383,7 +382,7 @@ hr {
     border: none;
     border-radius: 30px;
     background: #f1f1f1;
-    font-family: "Raleway", serif;
+    font-family: sans-serif;
     font-size: 12px;
 }
   
