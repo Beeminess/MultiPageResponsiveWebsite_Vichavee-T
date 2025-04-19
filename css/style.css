@@ -169,7 +169,7 @@ nav .nav ol li a:hover {
 .header {
     width: auto;
     height: 700px;
-    background-image: url(../Img/header_bg-main);
+    background-image: url(../img/header_bg-main.jpg);
     background-repeat: repeat-x;
     background-position-x: center;
     background-position-y: center ;
