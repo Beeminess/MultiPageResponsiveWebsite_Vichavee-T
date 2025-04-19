@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Final Assignment Multi Page Responsive Website</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <script defer src="script.js"></script>
+</head>
+
+<body> 
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/Logo_White.png" alt="logo">
+            </a>    
+        </div>
+        <div class="burger">&#9776;</div> <!-- Burger icon -->
+        <div class="nav">
+            <ol>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="ourstory.html">Our Story</a></li>
+                <li><a href="#cart">Cart</a></li>
+            </ol>
+        </div>
+    </nav>
+
+    <div class="wrapper">
+        <div class="header" >
+          <h1>Home</h1>
+          <div class="wiggle"><img src="img/M01_Main_Promo.png" alt="main"></div>
+        </div>
+        <div class="main">
+            <section id="promotion">
+                <div class="header-type">
+                    <br>
+                    <h1>PRMOTION / WHAT'S NEW</h1>
+                    <section class="slider-nav">
+                        <ul>
+                            <li class="arrow">
+                                <button class="previous">
+                                   <
+                                </button>
+                            </li>
+                            <div class="slider image">
+                                <img class= "active" src="img/P01.jpg" alt="traveling01">
+                                <img src="img/P02.jpg" alt="traveling02">
+                                <img src="img/P03.jpg" alt="traveling03">
+                                
+                            </div>
+                            <li class="arrow">
+                                <button class="next">
+                                    >
+                                </button>
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+            <hr>
+            <section id="about">
+                <div class="parent-container">
+                   
+                    <div class="text-container">
+                        <h1>
+                            <span class="highlight">ABOUT PANGO BAKERY</span> 
+                            <br>
+                             Love at first bite.
+                        </h1>
+                        <h2>
+                            At Pango Bakery, we believe every bite should be a moment of joy. Our pastries are crafted with perfectly risen dough, rich velvety cream, and the freshest, juiciest fruits nature has to offer. 
+                        </h2>
+                        <h1><button><a href="ourstory.html">Read More</a></button></h1>
+                        
+                        <h1><img src="img/girl_roll.png" alt="Girl_bake" class="responsive" ></h1>   
+                        <br> 
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="bakery">
+                <div class="parent-container">
+                    <div class="text-container">
+                        <h1>
+                            Recommended <span class="highlight">Menu</span> 
+                        </h1>
+                        <h2>Welcome to the heart of Pango Bakery! From buttery croissants and cream-filled éclairs to fresh fruit tarts and artisan breads, our menu is packed with handcrafted goodness. Whether you crave something sweet, fruity, or flaky, there's a treat here for every mood. Baked fresh daily with love—and only the finest ingredients.</h2>
+                        <h1><input type="text" placeholder="Search..." class="search-input">
+                            <button><a href="menu.html">Search</a></button>
+                        </h1>
+                    </div>
+                    
+                    <div class="grid1">
+                        <div class="bakery1">
+                            <div class="menu-container">
+                                <img src="img/B01_StrawberryCreamPuff copy.png" alt="B01">
+                                <br>
+                                <a> <h6>$5.50</h6>
+                                    <h6>★★★★★</h6>
+                                    <h6>Strawberry Cream Puff</h6>
+                                    Ingredients: Puff pastry base, whipped cream, strawberries, powdered sugar.
+                                    <h1>- 1 + <button>Add to cart</button> </h1>
+                                    <hr>
+                                </a>
+                            </div>
+                        </div>
+                        
+                        <div class="bakery2">
+                            <div class="menu-container">
+                                <img src="img/B02_PinkSwirlTart-.png" alt="B02">
+                                <br>
+                                <a> <h6>$4.75</h6>
+                                    <h6>★★★★☆</h6>
+                                    <h6>Pink Swirl Tart</h6>
+                                    Ingredients: Tart crust, strawberry or raspberry buttercream, food coloring.
+                                    <h1>- 1 + <button>Add to cart</button> </h1>
+                                    <hr>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="bakery3">
+                            <div class="menu-container">
+                                <img src="img/B03_ClassicEggTart.png" alt="B03">
+                                <br>
+                                <a> <h6>$3.00</h6>
+                                    <h6>★★★★★</h6>
+                                    <h6>Classic Egg Tart</h6>
+                                    Ingredients: Shortcrust pastry, egg custard (eggs, milk, sugar, vanilla).
+                                    <h1>- 1 + <button>Add to cart</button> </h1>
+                                    <hr>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <br>
+            <hr>
+            <div class="contact-section">
+                <form class="contact-form">
+                  <h2>Contact Us</h2>
+                  <input type="text" placeholder="Your Name" required>
+                  <input type="email" placeholder="Your Email" required>
+                  <textarea placeholder="Your Message" required></textarea>
+                  <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <section id="contact">
+            <img src="img/footer.png" alt="Bakery_Footer" class="responsive2">
+            <div class="flex">
+                <div>
+                    <br>
+                        <span class="Contactfont">GET IN TOUCH</span>
+                        <br>
+                        <a href=""><img src=Img/Icon_IG.png alt="IG"></a>
+                        <a href=""><img src=Img/Icon_YouTube.png alt="YOUTUBE"></a> 
+                        <a href=""><img src=Img/Icon_Facebook.png alt="FACEBOOK"></a>
+                        <a href=""><img src=Img/Icon_TikTok.png alt="TikTok"> </a>
+                </div>
+                <div>
+                    <h5> Come take a break at Pango.
+                        <br>
+                        ©2025 Beemine.
+                    </h5>
+                </div>
+                <div>
+                    <br>
+                    <img src=img/Logo_White.png width="150px" height="auto" alt="logo">
+                </div>
+            </div>     
+        </section>
+    </footer>
+</body>
+</html>
+
+
+
+ 
+
