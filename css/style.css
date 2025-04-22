@@ -232,13 +232,13 @@ button:hover {
     padding-inline: 20px;
     margin-inline: 30px;
     gap: 20px;
+    justify-items: center;
 }
 
 .grid1 div {
     background-color: #fff;
     height: 350px;
     overflow: hidden;
-    justify-items: center;
 }
 .grid1 div:hover {
     transform: scale(1.03);
