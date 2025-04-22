@@ -3,10 +3,10 @@
 
 html {
     scroll-behavior: smooth;
-    font-family: 24pt;
-    background-color: #fff;
-    font-family: sans-serif;
+    font-size: 24pt;
+    font-family: 24pt sans-serif;
     color: #D22026;
+    background-color: #fff;
 }
 
 p {
@@ -120,7 +120,6 @@ nav {
 }
 
 nav .logo {
-    margin: auto;
     padding: 5px 0 0 15px;
     height: 0px;
 }
@@ -226,7 +225,6 @@ button:hover {
 /* Grid1 (Bakery) */
 .grid1 {
     display: grid;
-    background-color: none;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     padding-inline: 20px;
@@ -247,7 +245,7 @@ button:hover {
 /* Grid2 */
 .grid2-container {
     display: grid;
-    height: 1200px;
+    height: auto;
     grid-template-columns: auto auto auto;
     background-color: none;
     padding: 20px;
@@ -357,7 +355,7 @@ button:hover {
 .menu-container img {
     display: block;
     float: right;
-    margin-right: -200;
+    margin-right: -200px;
     width: 150px;
     height: 150px;
 }
