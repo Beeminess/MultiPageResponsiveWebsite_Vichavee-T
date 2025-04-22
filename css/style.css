@@ -455,12 +455,10 @@ hr {
   
 .slider-nav .arrow {
     -webkit-box-flex: 0;
+    flex: 0 0 15;
     height: 60px;
     font-size: 50px;
     align-items: center;  
-    display: flex;         
-    flex: 0 0 15;
-    justify-content: center;
 } 
 
 .slider-nav span {
