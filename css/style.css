@@ -16,12 +16,10 @@ p {
     padding-top: 0px;
 }
 
-
 body {
     margin: 0;
     overflow-x: hidden;
 }
-
 
 /* text header */
 h1 {
@@ -241,6 +239,7 @@ button:hover {
     overflow: hidden;
     justify-items: center;
 }
+
 .grid1 div:hover {
     transform: scale(1.03);
 }
@@ -255,6 +254,7 @@ button:hover {
     margin: 30px;
     gap: 20px;
 }
+
 .grid2-container > div {
     background-color: #f1f1f1;
     color:#000;
@@ -263,6 +263,7 @@ button:hover {
     text-align: center;
     height: auto;
 }
+
 .grid2-container > div:hover {
     transform: scale(1.03);
     border-radius: 16px;
@@ -314,6 +315,7 @@ button:hover {
     gap: 0px;
     margin-top: -5px;
 }
+
 .flex div {
     height: 90px;
     flex: 1;
@@ -482,7 +484,6 @@ hr {
     height: 100%;
     animation: wiggle 4s ease-in-out infinite;
 }
-
 
 /* Tablet screen */
 @media screen and (max-width:1200px) {
