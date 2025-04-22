@@ -3,24 +3,21 @@
 
 html {
     scroll-behavior: smooth;
-    font-size: 24pt;
-    font-family: 24pt sans-serif;
-    color: #D22026;
+    font-family: 24pt;
     background-color: #fff;
+    font-family: sans-serif;
+    color: #D22026;
 }
-
 p {
     font-weight: normal;
     font-size: 1.0em;
     font-optical-sizing: auto;
     padding-top: 0px;
 }
-
 body {
     margin: 0;
     overflow-x: hidden;
-}
-
+  }
 /* text header */
 h1 {
     font-size: 30px;
@@ -30,7 +27,6 @@ h1 {
     line-height: 130%;
     text-align: center;
 }
-
 /* text sub info */
 h2 {
     font-size: 15px;
@@ -39,7 +35,6 @@ h2 {
     color: #D22026;
     line-height: 130%;
 }
-
 /* Use in grid > text header */
 h3 {
     font-size: 45px;
@@ -50,7 +45,6 @@ h3 {
     text-align: center;
     text-shadow: 0px 0px 8px #000000;
 }
-
 /* Use in grid > text sub info */
 h4 {
     font-size: 15px;
@@ -60,7 +54,6 @@ h4 {
     line-height: 130%;
     text-shadow: 0px 0px 8px #602d14;
 }
-
 h5 {
     font-size: 15px;
     font-family: sans-serif;
@@ -70,7 +63,6 @@ h5 {
     text-align: center;
     margin-inline: 20px;
 }
-
 h6 {
     font-weight: 900;
     font-size: 20px;
@@ -81,13 +73,11 @@ h6 {
 .highlight {
     color: #C1111F;
 }
-
 .Contactfont {
     font-size: 25px;
     font-weight: 900;
     color: #fff;
 }
-
 .parent-container {
     padding-top: 85px;
     padding-bottom: 0px;
@@ -95,17 +85,14 @@ h6 {
     text-align: justify;
     padding-inline: 10%;
 }
-
 .text-container {
     padding-inline: 10%;
 }
-
 .wrapper {
     width: 100vw;
     margin: auto;
     transition: .0.01s all ease-in-out; 
 }
-
 /*nav*/
 nav {
     background-color: #D22026;
@@ -120,6 +107,7 @@ nav {
 }
 
 nav .logo {
+    margin: auto;
     padding: 5px 0 0 15px;
     height: 0px;
 }
@@ -208,23 +196,25 @@ button {
     background-color: #C1111F;
     border: 2px solid #C1111F;
     border-radius: 30px;
+    
+    
 }
 
 button a {
     color: inherit;              
     text-decoration: none;
 }
-
 button:hover {
     background-color: #fff;
     border: 2px solid #C1111F;
     color: #C1111F;
     cursor: pointer;
+    
 }
-
 /* Grid1 (Bakery) */
 .grid1 {
     display: grid;
+    background-color: none;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto auto;
     padding-inline: 20px;
@@ -237,7 +227,6 @@ button:hover {
     overflow: hidden;
     justify-items: center;
 }
-
 .grid1 div:hover {
     transform: scale(1.03);
 }
@@ -245,14 +234,13 @@ button:hover {
 /* Grid2 */
 .grid2-container {
     display: grid;
-    height: auto;
+    height: 1200px;
     grid-template-columns: auto auto auto;
     background-color: none;
     padding: 20px;
     margin: 30px;
     gap: 20px;
 }
-
 .grid2-container > div {
     background-color: #f1f1f1;
     color:#000;
@@ -261,7 +249,6 @@ button:hover {
     text-align: center;
     height: auto;
 }
-
 .grid2-container > div:hover {
     transform: scale(1.03);
     border-radius: 16px;
@@ -274,13 +261,11 @@ button:hover {
     background-position: center;
     background-repeat:no-repeat ;
 }
-
 .item2 {
     background-image: url(../img/I02_bake.jpg);
     background-position: center;
     background-repeat:no-repeat ;
 }
-
 .item3 {
     grid-column-start: 2;
     grid-column-end: 4;
@@ -313,7 +298,6 @@ button:hover {
     gap: 0px;
     margin-top: -5px;
 }
-
 .flex div {
     height: 90px;
     flex: 1;
@@ -321,7 +305,6 @@ button:hover {
     text-align: center;
     padding-bottom: 10px;  
 }
-
 .search-container {
     display: flex;
     margin: 20px;
@@ -330,7 +313,6 @@ button:hover {
     overflow: hidden;
     background-color: #fff;
 }
-
 .search-input {
     border: 2px solid #af0000;
     padding: 10px 15px;
@@ -345,6 +327,7 @@ button:hover {
     width: 280px;
     text-align: left;
     background-color: #ffffff;
+    
     padding: 10px;
 }
 
@@ -355,7 +338,7 @@ button:hover {
 .menu-container img {
     display: block;
     float: right;
-    margin-right: -200px;
+    margin-right: -200;
     width: 150px;
     height: 150px;
 }
@@ -399,7 +382,7 @@ hr {
     border: none;
     border-radius: 30px;
     background: #f1f1f1;
-    font-family: sans-serif;
+    font-family: "Raleway", serif;
     font-size: 12px;
 }
   
@@ -462,6 +445,7 @@ hr {
     height: 60px;
     font-size: 50px;
     align-items: center;  
+    
 } 
 
 .slider-nav span {
@@ -482,6 +466,7 @@ hr {
     height: 100%;
     animation: wiggle 4s ease-in-out infinite;
 }
+
 
 /* Tablet screen */
 @media screen and (max-width:1200px) {
