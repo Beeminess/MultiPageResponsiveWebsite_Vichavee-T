@@ -352,7 +352,6 @@ button:hover {
 .menu-container img {
     display: block;
     float: right;
-    margin-right: -200px;
     width: 150px;
     height: 150px;
 }
